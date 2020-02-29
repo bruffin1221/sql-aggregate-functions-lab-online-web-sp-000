@@ -18,4 +18,5 @@ end
 
 def average_gpa_for_9th_grade
   "SELECT AVG(tardies) FROM students WHERE grade=9"
+  binding.pry
 end
